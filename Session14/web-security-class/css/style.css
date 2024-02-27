@@ -1,0 +1,207 @@
+body {
+	background-color: #000000;
+}
+
+.outer {
+	width: 90%;
+	background-color: #000000;
+	margin: auto;
+}
+
+.contentarea {
+	width: 98%;
+	background-color: #000000;
+	border: solid;
+	margin: 0 5px 0 5px;
+}
+
+.header {
+	background-color: #0CF;
+	margin: 0 5px 5px 5px;
+	width: 99%;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 3em;
+}
+
+.text02 {
+	color: #ffffff;
+}
+
+.column1 {
+	float: left;
+	background-color: #000000;
+	margin: 30% 0 20% 0;
+	width: 49%;
+	/*bottom:14.9%;*/
+}
+
+.icons {
+	cursor: default;
+	padding: 0;
+	letter-spacing: 0;
+	font-size: 1.25em;
+	width: calc(100% + 0.875rem);
+	margin-left: -0.4375rem;
+}
+
+.icons li {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	margin: 0.4375rem;
+}
+
+.icons li a {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	border-radius: 100%;
+	width: 2em;
+	height: 2em;
+}
+
+.icons li a svg {
+	display: block;
+	position: relative;
+	-moz-transition: fill 0.25s ease;
+	-webkit-transition: fill 0.25s ease;
+	-ms-transition: fill 0.25s ease;
+	transition: fill 0.25s ease;
+}
+
+.icons li a+svg {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	-moz-pointer-events: none;
+	-webkit-pointer-events: none;
+	-ms-pointer-events: none;
+	pointer-events: none;
+	-moz-transition: fill 0.25s ease, stroke 0.25s ease;
+	-webkit-transition: fill 0.25s ease, stroke 0.25s ease;
+	-ms-transition: fill 0.25s ease, stroke 0.25s ease;
+	transition: fill 0.25s ease, stroke 0.25s ease;
+}
+
+.icons li a .label {
+	display: none;
+}
+
+#icons01 li a svg {
+	width: 60%;
+	height: 60%;
+}
+
+#icons01 .n01 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n01 {
+	border: solid 1px #FFFFFF;
+}
+
+#icons01 .n01:hover {
+	border-color: #FFABB5;
+}
+
+#icons01 .n01:hover svg {
+	fill: #FFABB5;
+}
+
+#icons01 .n02 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n02 {
+	border: solid 1px #FFFFFF;
+}
+
+#icons01 .n02:hover {
+	border-color: #FFABB5;
+}
+
+#icons01 .n02:hover svg {
+	fill: #FFABB5;
+}
+
+#icons01 .n03 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n03 {
+	border: solid 1px #FFFFFF;
+}
+
+#icons01 .n03:hover {
+	border-color: #FFABB5;
+}
+
+#icons01 .n03:hover svg {
+	fill: #FFABB5;
+}
+
+#icons01 .n04 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n04 {
+	border: solid 1px #FFFFFF;
+}
+
+#icons01 .n04:hover {
+	border-color: #FFABB5;
+}
+
+#icons01 .n04:hover svg {
+	fill: #FFABB5;
+}
+
+#icons01 .n05 svg {
+	fill: #FFFFFF;
+}
+
+#icons01 .n05 {
+	border: solid 1px #FFFFFF;
+}
+
+#icons01 .n05:hover {
+	border-color: #FFABB5;
+}
+
+#icons01 .n05:hover svg {
+	fill: #FFABB5;
+}
+
+.column2 {
+	float: left;
+	background-color: #000000;
+	margin: 0 1px 0 1px;
+	width: 50%;
+}
+
+.footer {
+	background-color: #0CF;
+	margin: 0 5px 5px 5px;
+	width: 99%;
+}
+
+.clearfloats {
+	clear: both;
+}

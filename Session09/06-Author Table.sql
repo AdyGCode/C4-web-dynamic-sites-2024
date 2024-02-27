@@ -1,0 +1,7 @@
+/* Create the Author table */
+
+CREATE TABLE author (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255),
+email VARCHAR(255)
+) DEFAULT CHARACTER SET utf8 ENGINE=InnoDB

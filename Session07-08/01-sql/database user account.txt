@@ -1,0 +1,4 @@
+host: localhost
+database name: ijdb
+user name: dbuser
+password: password

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+.clearfloat {
+font-size: 0px;
+margin: 0px;
+padding: 0px;
+clear: both;
+float: none;
+height: 0px;
+width: 0px;
+border: 0px none;
+line-height: 0px;
+}
+.outer {
+/*	background-color: #F90;*/
+/*	height: 1400px;*/
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+/*	background-color: #FC9;*/
+	height: 250px;
+	width: 1020px;
+}
+
+nav {
+	/*background-color: #FFF;*/
+	height: 50px;
+	width: 1000px;
+	position: relative;
+	bottom: 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.mainbody {
+/*	background-color: #00F;*/
+/*	height: 910px;*/
+	width: 1020px;
+}
+#left_aside {
+/*	background-color: #09F;*/
+/*	height: 910px;*/
+	width: 300px;
+	float: left;
+}
+section {
+/*	background-color: #000;*/
+/*	height: 910px;*/
+	width: 720px;
+	float: left;
+}
+#inner_section {
+/*	background-color: #6CF;*/
+/*	height: 300px;*/
+	width: 720px;
+	float: left;
+}
+#left_article {
+	/*	background-color: #CCC;*/
+/*	height: 610px;*/
+	width: 340px;
+	float: left;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#right_article {
+	/*	background-color: #999;*/
+/*	height: 310px;*/
+	width: 340px;
+	float: left;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#bottom_aside {
+/*	background-color: #FFF;*/
+/*	height: 300px;*/
+	width: 360px;
+	float: left;
+}
+footer {
+/*	background-color: #CC6;*/
+	height: 240px;
+	width: 1020px;
+}
+body {
+	background-color: #F99;
+	background-image: url(../artwork/background-task01.jpg);
+	background-position: center top;
+}
+ul li {
+	display:inline;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+a {
+	background-color: #F9C;
+	display: block;
+	height: 30px;
+	width: 170px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+	background-color: #FCF;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;

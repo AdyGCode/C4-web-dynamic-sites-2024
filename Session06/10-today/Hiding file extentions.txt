@@ -1,0 +1,27 @@
+Avoid Advertising Your Technology Choices
+
+The examples we’ve seen so far have contained a mixture of plain HTML files (with
+names ending in .html) and files that contain a mixture of HTML and PHP (with
+names ending in .php). Although this distinction between file types may be useful
+to you, the developer, there’s no reason for your users to know which site pages
+rely on PHP code to generate them.
+
+Furthermore, although PHP is a very strong choice of technology to build almost
+any database driven website, the day may come when you want to switch from PHP
+to some new technology. When it does, do you really want all the URLs for dynamic
+pages on your site to become invalid as you change the file names to reflect your
+new language of choice?
+
+These days, professional developers place a lot of importance on the URLs they put
+out into the world. In general, URLs should be as permanent as possible, so it makes
+no sense to embrittle them with little “advertisements” for the programming language
+you used to build each individual page.
+
+An easy way to eliminate filename extensions in your URLs is to take advantage of
+directory indexes. When a URL points at a directory on your web server, instead of
+a particular file, the web server will look for a file named index.html or index.php
+inside that directory, and display that file in response to the request.
+For example, take the today.php page that I introduced at the end of Chapter 1. Rename
+it from today.php to index.php. Then, instead of dropping it in the root of your
+web server, create a subdirectory named today and drop the index.php file in there.
+Now, load

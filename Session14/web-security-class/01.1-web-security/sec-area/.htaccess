@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile C:/Laragon/www/web-security-class/01.1-web-security/sec-area/test/.htpasswd
+Require valid-user
